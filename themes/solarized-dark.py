@@ -1,14 +1,14 @@
 class Color(DefaultColor):
     USERNAME_FG = 15
-    USERNAME_BG = 4
+    USERNAME_BG = 0
     USERNAME_ROOT_BG = 1
 
     HOSTNAME_FG = 15
-    HOSTNAME_BG = 10
+    HOSTNAME_BG = 0
 
     HOME_SPECIAL_DISPLAY = False
     PATH_FG = 7
-    PATH_BG = 10
+    PATH_BG = 0
     CWD_FG = 15
     SEPARATOR_FG = 14
 
@@ -31,5 +31,5 @@ class Color(DefaultColor):
     SVN_CHANGES_FG = REPO_DIRTY_FG
     SVN_CHANGES_BG = REPO_DIRTY_BG
 
-    VIRTUAL_ENV_BG = 15
+    VIRTUAL_ENV_BG = 0
     VIRTUAL_ENV_FG = 2

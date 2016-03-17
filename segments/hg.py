@@ -36,4 +36,4 @@ def add_hg_segment(powerline):
         if has_missing_files:
             extra += '!'
         branch += (' ' + extra if extra != '' else '')
-    return powerline.append(' %s ' % branch, fg, bg)
+    return powerline.append('%s ' % branch, fg, bg)
